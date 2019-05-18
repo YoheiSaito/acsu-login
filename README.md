@@ -5,17 +5,17 @@ acsuネットワークに自動ログインするためのpythonスクリプト
     - opensslをインストール  
     [ここ](https://slproweb.com/products/Win32OpenSSL.html)から自身のコンピュータのビット数にあった, 
     なるべく新しいものをインストールしてパスを通す
-    - pythonをインストール
+    - pythonをインストール  
     cmdなどで`python -V` を実行してエラーが出なければ必要ない.
     ただし, インタプリタのパッケージマネージャからrequestsをインストールすること.   
     エラーが出るならば,  [ここ](https://www.python.org)からpythonをインストール
     pathはpython.exeに加えて, pipにも通す.
     `pip install requests`を実行する.
     
-- ubuntu
-opensslをインストール  
+- ubuntu  
+opensslをインストール    
 ` apt install openssl`  
-pythonモジュール requestsのインストール
+pythonモジュール *requests*のインストール  
 `pip3 install requests`  
 
 ## 使用方法
@@ -26,7 +26,7 @@ windowsの場合, .pyファイルをpythonと紐づけておけば,
 ` python acsu.py init`
 - 設定リセット  
 ` python acsu.py reset`
-- 設定を使ってログイン
+- 設定を使ってログイン  
 ` python acsu.py `
-- 設定を使わずログイン
+- 設定を使わずログイン  
 ` python acsu.py login`
