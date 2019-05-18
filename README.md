@@ -30,3 +30,6 @@ windowsの場合, .pyファイルをpythonと紐づけておけば,
 ` python acsu.py `
 - 設定を使わずログイン  
 ` python acsu.py login`
+
+## 参考
+yoideaさんの[acsu-loginのシェルスクリプト](https://github.com/yoidea/acsulogin)
