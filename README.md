@@ -6,9 +6,9 @@ acsuネットワークに自動ログインするためのpythonスクリプト
     [ここ](https://slproweb.com/products/Win32OpenSSL.html)から自身のコンピュータのビット数にあった, 
     なるべく新しいものをインストールしてパスを通す
     - pythonをインストール  
-     cmdなどで`python -V` を実行してエラーが出なければ必要ない.
+    \ cmdなどで`python -V` を実行してエラーが出なければ必要ない.
     ただし, インタプリタのパッケージマネージャからrequestsをインストールすること.   
-     エラーが出るならば,  [ここ](https://www.python.org)からpythonをインストール
+    \ エラーが出るならば,  [ここ](https://www.python.org)からpythonをインストール
     pathはpython.exeに加えて, pipにも通す.
     `pip install requests`を実行する.
     
